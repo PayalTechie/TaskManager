@@ -8,6 +8,8 @@ cd Frontend
 npm install
 npm start
 The app will be available at http://localhost:3000 or any other local port .
+
+
 Backend setup:
 Navigate to the backend folder:
 cd backend
@@ -18,6 +20,8 @@ JWT_SECRET=your_secret_key
 PORT=5000
 npm start
 
+
+
 Technical Choices & Architecture
 This project uses a MERN stack:
 MongoDB for the database.
@@ -26,6 +30,8 @@ React for the frontend.
 Node.js as the runtime environment.
 The frontend communicates with the backend via RESTful APIs, and JWT authentication is used to handle user login and session management.
 The architecture follows a Model-View-Controller (MVC) pattern for the backend, which keeps the business logic, routing, and database operations well separated.
+
+
 Database Schema
 Tasks Collection
 {
@@ -49,6 +55,8 @@ Users Collection
   updatedAt: Date
 }
 
+
+
 How to Run the Application Locally
 clone the repo:
 git clone https://github.com/your-username/task-manager.git
@@ -71,6 +79,8 @@ Access the application:
 Open the browser and navigate to http://localhost:3000 for the frontend.
 
 The backend is running on http://localhost:5000.
+
+
 Seed Data
 
 
