@@ -7,7 +7,7 @@ Navigate to the frontend folder:
 cd Frontend
 npm install
 npm start
-The app will be available at http://localhost:3000 or any other local port .
+The app will be available at http://localhost:.... 
 
 
 Backend setup:
@@ -15,9 +15,9 @@ Navigate to the backend folder:
 cd backend
 npm install
 Create a .env file in the backend folder with the following content:
-MONGO_URI=mongodb://localhost:298017/taskmanager
+MONGO_URI=mongodb://localhost:....../taskmanager
 JWT_SECRET=your_secret_key
-PORT=5000
+PORT=..
 npm start
 
 
@@ -76,17 +76,46 @@ Install dependencies and run the frontend server.
 
 Access the application:
 
-Open the browser and navigate to http://localhost:3000 for the frontend.
+Open the browser and navigate to http://localhost:.... for the frontend.
 
-The backend is running on http://localhost:5000.
+The backend is running on http://localhost:.....
 
 
 Seed Data
+## Seed Data 🌱
+
+To test the application, follow these steps to create users and tasks:
+
+1. **Create Users:**
+   - You can create users by using the registration API or directly in the database.
+   - Make sure to create secure passwords for the users.
+
+   Example:
+   - **User 1:**
+     - Email: `user1@example.com`
+     - Password: `your_secure_password_1`
+   - **User 2:**
+     - Email: `user2@example.com`
+     - Password: `your_secure_password_2`
 
 
-email:pihu@xyz.com
-password:pihu123
 
-email:tushar@example.com
-password:teshu123
+2. **Create Tasks:**
+   - Tasks can be added via the front-end or through API endpoints.
+
+   Example Tasks:
+   - **Task 1:**
+     - Title: "Finish project report"
+     - Description: "Complete the final report for the task manager project."
+     - Status: `incomplete`
+     - Priority: `high`
+     - Assigned to: User 1
+     
+   - **Task 2:**
+     - Title: "Complete homework"
+     - Description: "Finish the assigned homework for the course."
+     - Status: `incomplete`
+     - Priority: `medium`
+     - Assigned to: User 2
+
 
